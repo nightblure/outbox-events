@@ -1,5 +1,5 @@
 from src.bus import EventsBus
-from src.db.events_model import EventOutboxRepository
+from src.event_outbox.repository import EventOutboxRepository
 from src.events_handlers_mapping import event_to_handler
 from src.scheduler import TasksScheduler
 from src.services import Service1, Service2

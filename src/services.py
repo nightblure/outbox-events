@@ -1,4 +1,4 @@
-from src.db.events_model import EventOutboxRepository
+from src.event_outbox.repository import EventOutboxRepository
 from src.events import BaseEvent, Event1, Event2
 
 

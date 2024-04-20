@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Protocol
 
-from src.db.events_model import EventOutboxCreate
+from src.event_outbox.schemas import EventOutboxCreate
 from src.event_names import EVENT1_NAME, EVENT2_NAME
 
 
